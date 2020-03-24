@@ -1,36 +1,90 @@
 # Part 1
 ### a)
-
-
-
+ggrep rill filescan_00.1
+ggrep toise filescan_00.1
+ggrep erfree filescan_00.1
+ggrep asaur filescan_00.1
+ggrep izard filescan_00.2
+ggrep mander filescan_00.2
+ggrep meleon filescan_00.2
+ggrep aur filescan_00.3
+ggrep lypuff filescan_00.3
+ggrep th filescan_00.3
+ggrep chu filescan_00.3
+ggrep uck filescan_00.4
+ggrep ^wart filescan_00.4
+ggrep ^squi filescan_00.4
+ggrep saur filescan_00.4
 
 ### b)
 
-
+Files created.
 
 ### c)
 
+Section1
+beedrill
+blastoise
+butterfree
+bulbasaur
 
+Section2
+charizard
+charmander
+charmeleon
 
+Section3
+ivysaur
+jigglypuff
+meowth
+pikachu
 
-
-
-
-
-
-
-
+Section4
+psyduck
+squirtle
+venusaur
 
 
 # Part 2
 ### a)
 
+15
 
-
-
-
+grep -l [abcdefghijklmnopqrstuvwxyz] * | wc -l 
 
 ### b)
+
+wartortle 71 lines of code
+
+grep -l .  * | wc -l beedrill.txt
+      40 beedrill.txt
+grep -l .  * | wc -l blastoise.txt
+      38 blastoise.txt
+grep -l .  * | wc -l bulbasaur.txt
+      30 bulbasaur.txt
+grep -l .  * | wc -l butterfree.txt
+      38 butterfree.txt
+grep -l .  * | wc -l charizard.txt
+      40 charizard.txt
+grep -l .  * | wc -l charmander.txt
+      36 charmander.txt
+grep -l .  * | wc -l ivysaur.txt
+      33 ivysaur.txt
+grep -l .  * | wc -l jigglypuff.txt
+      34 jigglypuff.txt
+grep -l .  * | wc -l meowth.txt
+      33 meowth.txt
+grep -l .  * | wc -l pikachu.txt
+      40 pikachu.txt
+grep -l .  * | wc -l psyduck.txt
+      37 psyduck.txt
+grep -l .  * | wc -l squirtle.txt
+      34 squirtle.txt
+grep -l .  * | wc -l venusaur.txt
+      32 venusaur.txt
+grep -l .  * | wc -l wartortle.txt
+      71 wartortle.txt
+
 
 
 
